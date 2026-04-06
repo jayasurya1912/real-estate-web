@@ -1,3 +1,7 @@
+window.addEventListener("load", function () {
+  document.getElementById("preloader").style.display = "none";
+});
+
 document.addEventListener("DOMContentLoaded", function () {
 
   const toggle = document.getElementById("menu-toggle");
